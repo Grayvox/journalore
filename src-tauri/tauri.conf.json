@@ -5,14 +5,14 @@
   "identifier": "com.grayvox.journalore",
   "build": {
     "beforeDevCommand": "bun run dev",
-    "devUrl": "http://localhost:5173",
+    "devUrl": "http://localhost:1420",
     "beforeBuildCommand": "bun run build",
     "frontendDist": "../build"
   },
   "app": {
     "windows": [
       {
-        "title": "journalore",
+        "title": "Journalore",
         "width": 800,
         "height": 600
       }
