@@ -1,7 +1,16 @@
 <script lang="ts">
-  import UserWelcome from "$comp/UserWelcome.svelte";
+  import Desk from "$comp/main/Desk.svelte";
+
+  // import UserWelcome from "$comp/main/UserWelcome.svelte";
 </script>
 
 <main class="container">
-  <UserWelcome />
+  <Desk />
 </main>
+
+<style>
+  main {
+    height: 100%;
+    width: 100%;
+  }
+</style>
